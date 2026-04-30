@@ -1,0 +1,28 @@
+{
+  "package_format": "simple_artifacts_v1",
+  "created_utc": "2026-04-09T12:28:44Z",
+  "python_version": "3.10.12",
+  "platform": "Linux-5.15.0-1091-azure-x86_64-with-glibc2.35",
+  "libraries": {
+    "scikit-learn": "1.2.2",
+    "xgboost": "1.7.4",
+    "joblib": "1.4.2"
+  },
+  "task_type": "binary_classification",
+  "optimization_metric": "average_precision",
+  "cv_best_score": 0.9989268165981078,
+  "best_params": {
+    "model__subsample": 0.9,
+    "model__reg_lambda": 0.0,
+    "model__reg_alpha": 0.0,
+    "model__n_estimators": 900,
+    "model__min_child_weight": 8,
+    "model__max_depth": 8,
+    "model__learning_rate": 0.1,
+    "model__gamma": 0.0,
+    "model__colsample_bytree": 0.8
+  },
+  "postprocessing": {
+    "decision_threshold": 0.4
+  }
+}
